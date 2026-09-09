@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petal Crypto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <aside class="sidebar">
+      <div class="logo">
+        <span class="icon">⚡</span>
+        <h2>Crypto<span class="highlight">Petal</span></h2>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="campoBusca" class="search-input" placeholder="Pesquisar moeda...">
+      </div>
+
+      <div class="calculator-panel">
+        <h3>Conversor de Moedas</h3>
+        
+        <div class="calc-group">
+          <label for="selectMoeda">Moeda Selecionada:</label>
+          <select id="selectMoeda" class="calc-input"></select>
+        </div>
+
+        <div class="calc-group">
+          <label for="qtdMoeda">Quantidade:</label>
+          <input type="number" id="qtdMoeda" class="calc-input" value="1" min="0" step="any">
+        </div>
+
+        <div class="calc-result">
+          <span>Valor Total Estimado:</span>
+          <strong id="valorConvertido">R$ 0,00</strong>
+        </div>
+      </div>
+
+    </aside>
+
+    <main class="main-content">
+      <header class="top-header">
+        <h1>Painel de Criptomoedas</h1>
+        <span class="status-badge">● Mercado ao Vivo (BRL)</span>
+      </header>
+
+      <div class="music-grid" id="containerMoedas"></div>
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
