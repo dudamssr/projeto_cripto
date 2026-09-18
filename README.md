@@ -175,3 +175,8 @@ Em telas menores, a estrutura deverá se adaptar para que:
 
 
 ---
+
+## Envio
+- Colocar o projeto em um repositório com o Git Pages adicionado e realizar o envio para o e-mail: Eduarda Massaro dos Santos e Lívia Morais Pereira.
+- Logo após a nota será enviada para cada aluno.
+
